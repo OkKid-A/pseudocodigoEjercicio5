@@ -1,0 +1,17 @@
+Proceso Edades
+	Leer N
+	mm <- 0
+	hm <-0
+	Para i=0; hasta N;i++
+		Leer edad
+		Leer sexo
+		Si (edad >= 18) & (sexo == mujer) Entonces
+			mm++
+		Sino 
+			Si (edad < 18) & (sexo == hombre) Entonces
+				hm++
+			Fin Si
+		Fin Si
+	Fin Para
+	Escribir "Hay ",mm," mujers mayores y ",hm," hombres menores"
+FinProceso		
